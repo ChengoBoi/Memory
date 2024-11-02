@@ -3,3 +3,5 @@
 #Här är projektspecifikationen från tidigare studenter som har valt att göra 193 Memory 
 https://www.studocu.com/sv/document/kungliga-tekniska-hogskolan/programmeringsteknik/puppgift-projspec-projspec-till-memory/79929741
 https://www.studocu.com/sv/document/kungliga-tekniska-hogskolan/programmeringsteknik/memory-p-uppgift-projektspec/93259017
+
+https://www.pluggakuten.se/trad/p-uppgift-27/
