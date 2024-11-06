@@ -1,3 +1,4 @@
+#Koden fungerar sådär
 #Dags och skapa spelet Memory som min p_uppgift
 
 import random
