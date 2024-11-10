@@ -1,6 +1,6 @@
 #Koden fungerar sådär
 #Dags och skapa spelet Memory som min p_uppgift
-
+#Denna kod kan ge mig ett C, men jag siktar på ett A
 import random
 import tkinter as tk
 import os
