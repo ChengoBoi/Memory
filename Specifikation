@@ -1,1 +1,97 @@
-Hej
+# Namn: Charlie Li 
+Specifikation av P-uppgift
+# P-uppgift nr: 193
+# Titel: Memory
+
+
+# **************************** Användargränsnitt ************************
+
+# Spelet börjar med att rita upp rutorna och ställer sedan användaren frågor
+
+# Exempel:
+
+#    1   2   3   4   5   6 
+# A ___ ___ ___ ___ ___ ___  
+# B ___ ___ ___ ___ ___ ___  
+# C ___ ___ ___ ___ ___ ___  
+# D ___ ___ ___ ___ ___ ___ 
+# E ___ ___ ___ ___ ___ ___ 
+# F ___ ___ ___ ___ ___ ___ 
+# ==============================
+
+# Inmata värde för första rutans koordinater (Rad Kolumn):
+# * Programmet skriver ut värdet som finns bakom den rutan
+
+# Inmata värde för andra rutans koordinater (Rad Kolum):
+# *Programmet skriver ut värdet som finns bakom den rutan
+
+
+
+# ************************** Minne / Datastruktur ************************
+
+# Ett dolt bräde representeras som en lista med '___' element.
+# Data laddas från textfilen memo.txt och används för att blandas och skapa spelbrädan
+
+
+
+# ***************************** Algoritm *********************************
+
+# Programmet använder en lista med ord från filen memo.txt, i detta fall 36 ord för en 6x6 matris
+# Programmet blandar orden och skapar matrisen
+# Programmet ber användaren om information om matrisens ruta genom att angär ett x och y värden
+# Låt användaren välja två celler: Om de matchar förblir de synliga. Om de inte matchar döljs de igen efter en kort stund.
+# Kontrollera om alla celler är matchade, om ja så printas "Grattis, du har vunnit".
+
+
+
+# ************************** Programskelett ******************************
+
+     #**************************** Funktioner *********************************
+
+# Laddar ord från fil
+def load_words(filename="memo.txt", word_count=18): 
+    pass
+
+# Skapar spelbräde från orden
+def create_board(words, size=6): 
+    pass
+
+# Skapar ett dolt spelbräde
+def create_hidden_board(size=6, max_word_len=3): 
+    pass
+
+# Kontrollerar om spelet är över
+def is_game_won(hidden_board): 
+    pass
+
+# Skriver ut brädet
+def print_board(board): 
+    pass
+
+# Hanterar textläget
+def play_memory_game(): 
+    pass
+
+
+     #*************** Klasser och dess metoder******************
+
+#
+class MemoryGameText(object):
+
+__init__(self, size=6):
+# Skapar ett nytt spelbräda.
+
+load_words(self, filename="memo.txt", word_count=18):
+# Väljer slumpmässigt ett angivet antal ord, duplicerar dem och blandar ordlistan.
+
+
+     #************ Huvudprogrammet ********************
+
+# Läs in data från textfilen och skapa matris med orden gömda bakom
+# Låt användaren ange koordinaten för den första rutan den vill öppna. 
+# Printa ut matrisen med alla rutor och den som spelaren vald öppen.
+# Låt användaren ange koordinaten för den andra rutan den vill öppna. 
+# Printa ut matrisen med alla rutor och dem som spelaren vald öppen. Om två är lika så behåll de på
+
+# Om det blir två av samma ska det sparas
+# Skapa en loop och fortsätt med spelet tills användaren har matchat alla orden i lista
